@@ -18,6 +18,7 @@ jobs:
           website_url: "https://www.bankitamas.hu"
           include_url_prefix: "https://www.bankitamas.hu"
           exclude_url_contained: "tel:"
+          include_url_contained: "https://bankitamas.hu"
           resolve_before_filtering: "true"
           verbose: "true"
           max_retry_time: 10
